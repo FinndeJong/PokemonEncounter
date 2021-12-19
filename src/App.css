@@ -2,6 +2,7 @@
 
 :root {
   --dark: #1a1a1a;
+  --history: #292f31ad;
   --blue: #06c6bf;
   --white: #ffffff;
 }
@@ -54,4 +55,26 @@ h2 {
   font-family: 'Shippori Antique', sans-serif;
 
   cursor: pointer;
+}
+
+
+
+
+.history-container {
+  position: absolute;
+  display: flex;
+
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-color: var(--history);
+}
+
+.history {
+  height: 100%;
+  width: 40%;
+
+  background-color: var(--dark);
 }
