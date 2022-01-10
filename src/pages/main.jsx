@@ -32,7 +32,7 @@ const Main = () => {
 					<h1>{Count}</h1>
 				</div>
 				{/* Buttons */}
-				<div>
+				<div className="buttons-margin">
 					<button className="button" onClick={() => setCount(Count + 1)}>+</button>
 					<button className="button" onClick={() => setCount(0)}>reset</button>
 					<button className="button" onClick={handleNext}>next</button>
